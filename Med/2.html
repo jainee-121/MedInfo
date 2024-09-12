@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="main.css" rel="stylesheet">
+</head>
+<style>
+  @media screen and (max-width: 768px){
+    .form-container .col{
+  height: auto; 
+  width:auto;
+  margin: 0px 10px;
+    }
+}
+
+.product img,.ingredient img{
+  width:100%;
+  height:auto;
+  display:flex;
+}
+</style>
+<body>
+  <div class="container-fluid">
+    <ul class="nav ml-auto" style="background-color: #9AFCC5; font-size: large; font-family:Gill Sans, sans-serif	; font-weight:bold;padding-top:10px;">
+      <a class="navbar-brand" href="main.html">      
+          <img class="logo" src="logo.png" alt="Logo" style="width:140px;height:50px;">
+        </a>
+
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="ingredient.html">Ingredients</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="decode.html">Decode</a>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-muted" type="submit" style="width: 75px;"><a class="nav-link" style="padding: 0px;color:white;" href="login.html">Login</a></button>
+    </li>
+    </ul>
+  </div>
+
+
+<div class="container-fluid">
+    <div class="body">
+        <img class="img" src="drug.png">
+        <img class="img" src="drug1.png">
+        <img class="img" src="drug2.png">
+        <h1><b>decode medicines like</b></h1> 
+        <h1><b>a pro<sup style="color:orange">*</sup></b></h1>
+        <br><br><br>
+        <form class="search d-flex">
+            <input class="form-control me-2" style="font-size: 20px;" type="text" placeholder="Search">
+            <button class="btn btn-muted" type="button">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="form-container">
+<h1 class="name"style="color:#2C5D7F;text-align:center;padding-bottom:30px;">ingredients</h1>
+<div class="product">
+  <div class="row">
+    <div class="col">
+      <a href="paracetamol.html" >
+        <img src="paracetamol.gif" alt="Item 1" style="height:150px;width:100%">
+      </a>
+      <span>PARACETAMOL</span>
+    </div>
+    <div class="col">
+      <a href="azethromycin.html" >
+        <img src="azythromycin.png" alt="Item 2" style="height:150px;width:100%">
+      </a>
+      <span>AZITHROMYCIN</span>
+    </div>
+    <div class="col">
+      <a href="cetrizin.html" >
+        <img src="cetrizin.png" alt="Item 3" style="height:150px;width:100%">
+      </a>
+      <span>CETRIZIN</span>
+    </div>
+  <div class="row">
+    <div class="col">
+      <a href="methyl salicylate.html" >
+        <img src="methyl salicylate.png" alt="Item 4"style="height:150px;width:100%">
+      </a>
+      <span>METHYLSALICYLATE</span>
+    </div>
+    <div class="col">
+      <a href="menthol.html" >
+        <img src="menthol.jpg" alt="Item 5" style="height:150px;width:100%">
+      </a>
+      <span>MENTHOL</span>
+    </div>  
+  </div>
+  </div>
+</div>
+
+
+<div><h1 class="name"style="color:#2C5D7F;text-align:center;margin:150px 0px 40px 0px;">Products</h1></div>
+<div class="ingredient">
+  <div class="row">
+    <div class="col">
+      <a href="dolo.html" >
+        <img src="dolo.png" alt="Item 1">
+      </a>
+      <span>DOLO 650 TABLET</span>
+    </div>
+    <div class="col">
+      <a href="volini.html" >
+        <img src="volini.jpg" alt="Item 2">
+      </a>
+      <span>VOLINI GEL 75gm</span>
+    </div>
+    <div class="col">
+      <a href="crocin.html" >
+        <img src="crocin.jpg" alt="Item 3">
+      </a>
+      <span>CROCIN TABLET</span>
+    </div>
+  <div class="row">
+    <div class="col">
+      <a href="alerid.html" >
+        <img src="alerid.jpg" alt="Item 4">
+      </a>
+      <span>ALERID TABLET</span>
+    </div>
+    <div class="col">
+      <a href="azicip.html" >
+        <img src="azicip.jpg" alt="Item 5">
+      </a>
+      <span>AZICIP TABLET</span>
+    </div>  
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="footer">
+      <div class="emailbox">
+          <div>
+              We do a Best of MED-INFO email once a month with the most interesting products and ingredients we bump into.
+                <form method="post" action="#" id="emailform">
+                  <div class="form">
+                    <input type="email" class="email" placeholder="Email">
+                  </div>
+              </form>
+          </div>
+       </div>
+<div class="crfooter">
+      <div>
+          *MED_INFO is a list of the standardized and internationally accepted names used in the declaration of ingredients on medicine and health care product. It is published by the Personal health Product Council.
+      </div>
+      <div>
+          Copyright 2024 | <a class="white" href="contact-us.html" style="color:orange">contact-us</a>
+      </div>
+</div>
+</div>
+</body>
+</html>
+
+

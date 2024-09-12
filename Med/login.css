@@ -1,0 +1,31 @@
+.form-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding:0px 30px 30px 30px;
+    border-radius: 5px;
+   font-family: sans-serif,'Gill Sans';
+   font-weight: bolder;
+}
+.form-container h2 {
+    text-align: left;
+    color:#2C5D7F;
+}
+.form-container form {
+    margin-top: 20px;
+  }
+.form-container form .form-group {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+.form-container form .btn {
+    width: 100%;
+  }
+.form-container form .link{
+  color:#6cca8a;
+  font-size: 14px;
+  text-decoration: none;
+}
+.form-container form .link:hover{
+  text-decoration:underline solid #6cca8a;
+}
