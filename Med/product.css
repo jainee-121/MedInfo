@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2 rem;
+    font-family: sans-serif,'Gill Sans';
+}
+.container-fluid, .container-fluid > * {
+  padding: 0;
+  margin: 0;
+}
+.body{
+    letter-spacing:2px;
+    max-width: 700px;
+    margin: 60px auto 10px auto;
+    background-color: #ffffff;
+    color:#2C5D7F;
+    padding:0px 30px 0px 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+.box{
+    width:90%;
+    letter-spacing:1px;
+    padding: 90px 30px 0px 220px;
+    align-items: left; 
+    color:#2C5D7F;
+    font-weight: bolder;
+}
+
+
+
+.nav-item{
+  background-color: #9AFCC5;
+  font-size: large; 
+  font-weight:bold;
+  padding-top:4px;
+  padding-bottom: 7px;
+}
+.nav{
+  justify-content:center; 
+}
+.nav-link{
+  color:#2C5D7F;
+}
+.nav-link:hover{
+  color:orange;  
+}
+
+
+h1:hover,h2:hover,h5:hover{
+    color:orange;
+    transition-duration: 300ms;
+  }
+.btn{
+   background-color:#2C5D7F;
+   color: white;
+}
+.btn:hover{
+    background-color:#203645;
+    color: white; 
+}
+.container.h4:hover{
+    font-weight:bold;
+    color:orange;
+}
+.upper img:hover,.upper-box img:hover{
+    transform:scale(1.05);
+  
+    transition-duration: 300ms;
+    
+}
+
+
+.scroll-item:hover{
+    transform:scale(1.05);
+  
+    transition-duration: 300ms;
+    
+  }
+.upper-box.drugs{
+    display:flex; 
+}
+.drugs img{
+    height:300px;
+    width:300px;   
+}
+.upper .ingredient{
+    display:inline-block; 
+}
+
+.ingredient img{
+    height:50%;
+    width:50%;   
+}
+.lower-box div{
+    font-size:15px;
+    padding:0px 0px 14px 0px;
+    letter-spacing:1px;  
+    opacity: 0.8;
+}
+.lower div{
+  font-size:15px;
+  padding:0px 0px 14px 0px;
+  letter-spacing:1px;  
+  opacity: 0.8;
+}
+  
+
+
+
+.scroll-container{
+    padding:0px 50px 100px 50px;
+    overflow-x: scroll;
+    white-space: nowrap; 
+    width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    }
+.scroll-item{
+    display:inline-block;
+    margin:0px 0px 0px 20px;
+    height:225px;
+    width:260px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+.scroll-container img{
+    display:block;
+    height:100%;
+    width: 100%;
+    padding:0px 10px;
+  }
+.scroll-container div{
+   text-align:center;
+   color:#2C5D7F;
+   font-weight: bolder;
+}
+  
+  
+  
+  
+.footer{
+    margin:60px 0px 0px 0px;
+    padding:30px 0px 0px 0px;
+    background-color: #b1f5c1; 
+    color:rgb(72, 70, 70)
+}
+  
+.footer .emailbox div{
+    text-align: center;
+    padding:20px 30px;
+    font-size:20px;
+}
+  
+.footer .emailbox input{
+  text-align: center;
+  border-radius:5px;
+  border: 0.5px solid rgb(190, 190, 190);
+}
+  
+.footer .crfooter div{
+    background-color:#2C5D7F;
+    color:rgb(72, 70, 70);
+    text-align: center;
+    padding:20px 30px;
+    font-size:15px;
+    padding:1px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .container-fluid, .container {
+      padding: 0px 0px;
+  }
+  .nav {
+      flex-direction: column; 
+      align-items: center;
+  }
+  .nav-item {
+      width: 100%;
+      text-align: center; 
+  }
+  .nav-item input{
+    margin-left:10px;
+  }
+  .nav .navbar-brand {
+      margin-bottom: 10px; 
+  }
+  .box {
+      padding: 20px;
+  }
+  .upper-box, .upper-box.drugs {
+      flex-direction: column; 
+      align-items: center;
+  }
+  .drugs img {
+      height: auto; 
+      width: 80%; 
+      max-width: 300px; 
+  }
+  .footer{
+      padding: 15px; 
+      text-align:center;
+  }
+  .footer .emailbox div, .footer .crfooter div {
+      padding: 10px; 
+  }
+  .emailbox input{
+    width:150px;
+  }
+  .scroll-container {
+      padding: 0px 20px; /* Adjust padding for scroll container */
+  }
+
+  
+  .ingredient img{
+        height: auto;
+        width: 80%; 
+        max-width:300px;
+        margin:0px
+  }
+
+  .upper, .lower {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .scroll-item {
+        width: auto;
+    }
+
+
+}
